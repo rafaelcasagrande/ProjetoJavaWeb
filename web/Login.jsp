@@ -11,14 +11,21 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
         
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         
+        <!--
+        <script src="jquery/jquery-1.11.1.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <script src="js/bootstrap.min.js"></script>
+        -->
     </head>
     <body>
         <div class="container">
-            <form class="form-signin" role="form" action="CadastroCargo.jsp" >
+            <form class="form-signin" role="form" method="Post" action="ServletLogin" >
                 <h2 class="form-sigin-heading">Dados para Login</h2>
                 <input type="text" class="form-control" placeholder="Username" required autofocus>
                 <input type="password" class="form-control" placeholder="Password" required>
